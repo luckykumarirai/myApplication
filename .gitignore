@@ -1,0 +1,28 @@
+## Ignore build results
+bin/
+obj/
+out/
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Runtime files
+*.db
+*.pid
+
+# Others
+*.DS_Store
+*.exe
+*.dll
+*.pdb
+*.cache

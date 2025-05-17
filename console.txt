@@ -1,0 +1,18 @@
+Console class is static class that belong from System namespace.
+The static class in C# contains only static members i.e. all the Properties and Methods available in the Console class are static.
+
+
+Console Class Properties 
+1. Title
+2. BackgroundColor
+3. ForegroundColor 
+4.CursorSize
+
+Console class Methods
+1. Write(“string”): This method is used to write the specified string value to the standard output stream.
+2. WriteLine(“string”): This method is used to write the specified string value, followed by the current line terminator, to the standard output stream. That means this method same as the write method but automatically moves the cursor to the next line after printing the message.
+3. Write(variable): This method is used to write the value of the given variable to the standard output stream.
+4. WriteLine(variable): This method is used to write the value of the given variable to the standard output stream along with moving the cursor to the next line after printing the value of the variable.
+5. Read(): This method read a single character from the keyboard and returns its ASCII value. The Datatype should be int as it returns the ASCII value.
+6. ReadLine(): This method reads a string value from the keyboard and returns the entered value only. As it returns the entered string value so the DataType is going to be a string.
+7. ReadKey():  This method reads a single character from the keyboard and returns that character information like what key has been entered, and what its corresponding ASCII value is. The Datatype should be ConsoleKeyInfo which contains the entered key information
