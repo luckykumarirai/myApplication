@@ -31,6 +31,15 @@ namespace myApplication
             int Number1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Your number is {Number1}");
 
+
+            //*****************************String class in C# ****************************
+            // string is immutable means when we declare a  string aasign some value, and again reassign soem another value then it create a new memery
+            // one object will be created which holds the value DotNet and that object will be referred to by the str variable. When the second statement will be executed,
+            //another object will be created which holds the value Tutorials and now the str variable will point to this newly created object.first object will be there and will be available for garbage collectio
+            string str="DOtnet";
+            str="Tutorial"
+            Console.WriteLine();
+
         }
     }
 }
